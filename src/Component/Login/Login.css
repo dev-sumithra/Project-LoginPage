@@ -19,6 +19,14 @@
     border-radius: 25px 0px 0px 25px;
 }
 
+@media screen and (max-width: 768px) {
+    .container-login {
+        width:135%; /* Adjust the width to 100% for smaller screens */
+        border-radius: 0; 
+        position: fixed;/* Remove border radius for smaller screens */
+    }
+}
+
 .container-contents {
     margin-top: 7vh;
     padding-left: 160px;

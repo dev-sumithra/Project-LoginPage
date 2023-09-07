@@ -42,7 +42,7 @@ function Login() {
             <input
               className="inputboxes-style"
               type="text"
-              placeholder="hello@"
+              placeholder="sumithra@12"
             />
             <p>Password</p>
             <input
