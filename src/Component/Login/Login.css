@@ -1,0 +1,156 @@
+/* Login.css */
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    justify-content: center;
+    padding: 50px;
+    background-color: #e0218a2b;
+    display: flex;
+}
+
+.container-login {
+    height: 96vh;
+    width: 55%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.container-contents {
+    margin-top: 7vh;
+    padding-left: 160px;
+}
+
+.container-contents h3 {
+    font-weight: 700;
+}
+
+.container-contents > p {
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.container-contents button {
+    width: 250px;
+    height: 40px;
+    border-radius: 18px;
+    border: 0.5px solid #d0c7c7;;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.container-login-styles {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    color: #e109805e;
+}
+
+.container-login-styles hr {
+    width: 60px;
+    margin-top: 10px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 5px;
+}
+
+.container-login-styles p {
+    font-size: 11px;
+    color: lightgray;
+}
+
+.inputboxes-style {
+    width: 250px;
+    height: 30px;
+    border-radius: 18px;
+    border: 0.5px solid #d0c7c7;;
+    background-color: #fff;
+    text-indent: 12px;
+    
+}
+
+.inputboxes-style:focus {
+    border: 3px solid #e0218a;
+    outline: none;
+    
+}
+
+.forget-password {
+    display: flex;
+    margin-left: 160px;
+    margin-top: 5px !important;
+    margin-bottom: 45px !important;
+    font-size: 12px;
+}
+.inputboxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 8px !important;
+    color: #e0218a;
+}
+
+.inputboxes p {
+    display: flex;
+    margin-bottom: 8px !important;
+    color: #0a0a0a;
+    font-size: small;
+}
+
+.inputboxes p:last-child {
+    color: #e0218a;
+}
+
+.inputboxes button {
+    width: 250px;
+    height: 35px;
+    background-color: #e0218a;
+    text-align: center;
+    border: none;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.text-right {
+    font-size: 9px !important;
+    position: absolute;
+    color: lightgray;
+}
+
+.banner-image {
+    height: 96vh;
+    border-radius: 0px 25px 25px 0px;
+}
+
+
+@media screen and (max-width:1150px) {
+    .banner-image {
+        display: none; /* Hide the element */
+    }
+}
+
+.dsplay-login{
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+}
+.image-icone-style{
+    display: flex;
+    justify-content: center;
+    gap:1%;
+}
+
+
+.icon-image{
+   height: 25px;
+   width: 25px;
+   margin-top: -2%;
+
+}
+
